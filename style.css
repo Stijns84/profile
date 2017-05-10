@@ -1,0 +1,111 @@
+/* Here goes your CSS */
+
+body {
+  background-color: #EAEAEA;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #A5A5A5;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.05em;
+  color: #EA5D5D;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.22em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+}
+
+.card {
+  width: 500px;
+  margin: 15px auto;
+  background-color: #F9F9F9;
+  padding: 15px 0;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-border {
+  border: 2px solid #C4C4C4;
+}
+
+#profile-pic {
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-red {
+  background-color: #EA5D5D;
+  color: #DDDDDD;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#books {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#books img {
+  width: 80px;
+}
+
+#books td {
+  padding: 10px;
+}
+
+
+
+
+
+
