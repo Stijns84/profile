@@ -69,14 +69,13 @@ div {
 }
 
 #right-container {
-    width: 60%;
+    width: 65%;
     float: right;
     min-height: 600px;
 }
 
 #footer {
-    position: relative;
-    padding: 10px 400px 60px 20px;
+    padding: 10px 200px 60px 200px;
 }
 
 .card {
@@ -110,6 +109,12 @@ div {
   display: inline-block;
   border-radius: 6px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-red:hover {
+  background-color: #FF5D5D;
+  text-decoration: none;
+  color: white;
 }
 
 .list-inline {
@@ -185,11 +190,6 @@ div {
 
 #left-container .card:first-child {
     min-height: 350px;
-}
-
-#footer {
-    /*position: relative;*/
-    padding: 10px 200px 60px 200px;
 }
 
 /*Form style*/
