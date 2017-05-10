@@ -1,4 +1,7 @@
 /* Here goes your CSS */
+html {
+  display: block;
+}
 
 body {
   background-color: #EAEAEA;
@@ -47,13 +50,33 @@ img {
   width: 200px;
 }
 
-.container-fluid {
-    width: 90%;
-    margin: 30px auto;
+#wrapper {
+    padding: 20px;
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 2px;
+    background: rgba(175, 175, 175, 0.1);
 }
 
 div {
     display: block;
+}
+
+#left-container {
+    width: 35%;
+    float: left;
+    min-height: 600px;
+}
+
+#right-container {
+    width: 60%;
+    float: right;
+    min-height: 600px;
+}
+
+#footer {
+    position: relative;
+    padding: 10px 400px 60px 20px;
 }
 
 .card {
@@ -155,6 +178,20 @@ div {
 .fa {
   display: inline-block;
 }
+
+#right-container .card {
+    min-height: 530px;
+}
+
+#left-container .card:first-child {
+    min-height: 350px;
+}
+
+#footer {
+    /*position: relative;*/
+    padding: 10px 200px 60px 200px;
+}
+
 
 
 
