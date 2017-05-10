@@ -47,8 +47,16 @@ img {
   width: 200px;
 }
 
+.container-fluid {
+    width: 90%;
+    margin: 30px auto;
+}
+
+div {
+    display: block;
+}
+
 .card {
-  width: 500px;
   margin: 15px auto;
   background-color: #F9F9F9;
   padding: 15px 0;
@@ -104,6 +112,49 @@ img {
   padding: 10px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 120px;
+}
+
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
+}
+
+#sidebar i {
+  color: #DDDDDD;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#sidebar li {
+  padding: 20px 0;
+}
+
+.fa {
+  display: inline-block;
+}
 
 
 
